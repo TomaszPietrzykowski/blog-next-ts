@@ -3,11 +3,11 @@ import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
 
-const Home: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Home Page</title>
         <meta name="description" content="Boilerplate blog code" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -34,4 +34,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default HomePage
